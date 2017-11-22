@@ -1,1 +1,4 @@
 C/C++ headers modified for use with the https://godbolt.org/ compiler explorer
+
+Files are each licensed under their respective licenses.
+If no license, assume LGPL version 2.1 or later.
