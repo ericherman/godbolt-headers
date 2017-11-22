@@ -25,11 +25,11 @@
 #include <string.h>
 #include <math.h>
 
-#include <avr/pgmspace.h>
-#include <avr/io.h>
-#include <avr/interrupt.h>
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/tools/avr/avr/include/avr/pgmspace.h>
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/tools/avr/avr/include/avr/io.h>
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/tools/avr/avr/include/avr/interrupt.h>
 
-#include "binary.h"
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/arduino/avr/cores/arduino/binary.h>
 
 #ifdef __cplusplus
 extern "C"{
@@ -227,10 +227,10 @@ extern const uint8_t PROGMEM digital_pin_to_timer_PGM[];
 #endif
 
 #ifdef __cplusplus
-#include "WCharacter.h"
-#include "WString.h"
-#include "HardwareSerial.h"
-#include "USBAPI.h"
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/arduino/avr/cores/arduino/WCharacter.h>
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/arduino/avr/cores/arduino/WString.h>
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/arduino/avr/cores/arduino/HardwareSerial.h>
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/arduino/avr/cores/arduino/USBAPI.h>
 #if defined(HAVE_HWSERIAL0) && defined(HAVE_CDCSERIAL)
 #error "Targets with both UART0 and CDC serial not supported"
 #endif
@@ -254,6 +254,6 @@ long map(long, long, long, long, long);
 
 #endif
 
-#include "pins_arduino.h"
+#include <https://raw.githubusercontent.com/ericherman/godbolt-headers/master/arduino/hardware/arduino/avr/variants/standard/pins_arduino.h>
 
 #endif
